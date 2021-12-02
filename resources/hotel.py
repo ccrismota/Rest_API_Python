@@ -81,5 +81,4 @@ class Hotel(Resource):
             return {'Mensage': 'Hotel Deleted.'}
         return {'Mensage': 'Hotel not found.'}, 404
 
-    #necessario definir uma variavel global, para que o python entenda que
-    #estamos falando da mesma lista de hoteis
+   
